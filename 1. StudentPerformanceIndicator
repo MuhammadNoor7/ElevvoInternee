@@ -1,1 +1,20 @@
 
+# 1. Importing And Loading Dataset
+
+import numpy as np
+import pandas as pd
+import matplotlib.pyplot as plt
+import seaborn as sns
+import warnings
+from sklearn.preprocessing import OrdinalEncoder,PolynomialFeatures
+from sklearn.model_selection import train_test_split
+from sklearn.linear_model import LinearRegression
+from sklearn.metrics import mean_absolute_error,mean_squared_error,r2_score,explained_variance_score,max_error
+warnings.filterwarnings('ignore')
+
+# Loading and copying dataset
+df_og=pd.read_csv("StudentPerformanceFactors.csv",encoding='utf-8')
+df=df_og.copy()
+df.reset_index(drop=True,inplace=True)
+df.head()
+
