@@ -10,7 +10,9 @@ Imported dataset using Pandas & NumPy.
 
 Handled missing values.
 
-Applied ordinal encoding for categorical features and binary encoding for gender, extracurriculars, internet access, and learning disabilities.
+Applied ordinal encoding for categorical features.
+
+Applied binary encoding for gender, extracurriculars, internet access, and learning disabilities.
 
 Exploratory Data Analysis (EDA)
 
@@ -31,8 +33,11 @@ MAE, MSE, RMSE, R², Adjusted R².
 📌 Key Learnings
 
 ✔ Regression modeling fundamentals.
+
 ✔ Feature selection impact.
+
 ✔ Interpreting evaluation metrics.
+
 ✔ Effect of multiple variables on student outcomes.
 
 2️⃣ Forest Cover Type Classification
@@ -51,9 +56,9 @@ Applied ordinal encoding.
 
 EDA
 
-Histograms & KDE plots for feature distributions.
+Created histograms & KDE plots for feature distributions.
 
-Correlation heatmap for numeric + encoded features.
+Generated correlation heatmap for numeric + encoded features.
 
 Modeling
 
@@ -68,8 +73,11 @@ Visualized representative decision trees for interpretability.
 📌 Key Learnings
 
 ✔ Multi-class classification.
+
 ✔ Data preprocessing techniques.
+
 ✔ Hyperparameter tuning.
+
 ✔ Feature importance & interpretability in tree-based models.
 
 3️⃣ Music Data Analysis
@@ -90,7 +98,7 @@ EDA
 
 Visualized feature distributions (tempo, loudness, energy).
 
-Correlation heatmaps & class balance analysis.
+Generated correlation heatmaps & analyzed class balance.
 
 Feature Engineering
 
@@ -111,8 +119,11 @@ Optimized training with EarlyStopping & ReduceLROnPlateau.
 📌 Key Learnings
 
 ✔ Audio feature extraction & MFCC processing.
+
 ✔ CNN design & transfer learning.
+
 ✔ Spectrogram-based classification.
+
 ✔ Regularization & callbacks for stable training.
 
 4️⃣ Walmart Sales Prediction
@@ -131,7 +142,7 @@ Handled missing values, dropped low-variance columns.
 
 EDA
 
-Boxplots, scatterplots, pairplots, correlation heatmaps.
+Used boxplots, scatterplots, pairplots, and correlation heatmaps.
 
 Feature Engineering
 
@@ -141,13 +152,13 @@ Seasonal flags: spring, summer, fall, winter.
 
 Store attributes: holiday encoding, store type, store size bins.
 
-Lag features (lag_1, lag_4, lag_40).
+Lag features: lag_1, lag_4, lag_40.
 
-Rolling means (10, 20).
+Rolling means: 10, 20.
 
-Delta features (Fuel_Price_Change, CPI_Change).
+Delta features: Fuel_Price_Change, CPI_Change.
 
-Interaction features (Temp_Fuel_Interaction).
+Interaction features: Temp_Fuel_Interaction.
 
 Final Dataset Size: 294,513 rows × 40 columns.
 
@@ -166,8 +177,11 @@ Best Model: XGBoost (RMSE ≈ 4194, MAE ≈ 1660, R² ≈ 0.968).
 📌 Key Learnings
 
 ✔ Large-scale feature engineering.
+
 ✔ Time-series forecasting.
+
 ✔ Ensemble methods for business predictions.
+
 ✔ Model comparison using regression metrics.
 
 ⚙️ Tech Stack & Tools
